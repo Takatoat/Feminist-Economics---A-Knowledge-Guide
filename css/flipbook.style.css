@@ -71,6 +71,8 @@
     bottom: 0;
     overflow: hidden;
     direction: ltr !important;
+    transform: scale(0.85); /* 👈 Adjust this value to scale down */
+    transform-origin: top center; /* 👈 Keeps the content centered */
 }
 
 .flipbook-bookLayer {
